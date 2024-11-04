@@ -95,7 +95,7 @@ button#toggle-theme:hover {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin: 5px;
-    padding: 5px; /* Reducido para más elementos */
+    padding: 25px; /* Reducido para más elementos */
     text-align: center;
     cursor: pointer;
     transition: transform 0.2s;

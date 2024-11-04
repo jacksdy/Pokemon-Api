@@ -14,7 +14,8 @@ body {
 h1 {
     color: #a1c712;
     font-size: 4em;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 button#toggle-theme {
@@ -23,7 +24,7 @@ button#toggle-theme {
     font-size: 14px;
     border: none;
     border-radius: 5px;
-    background-color: #ff6347;
+    background-color: yellowgreen;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -89,7 +90,7 @@ button#toggle-theme:hover {
 }
 
 #pokemon-list div {
-    background-color: #444;
+    background-color: yellowgreen;
     border: 1px solid #555;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -114,23 +115,23 @@ button#toggle-theme:hover {
     justify-content: center;
     width: 100%;
     background-color: #333;
-    padding: 10px 0;
+    padding: 30px 0;
     position: fixed;
     bottom: 0;
 }
 
 button {
     margin: 0 5px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     font-size: 12px;
     border: none;
     border-radius: 5px;
-    background-color: #ff6347;
+    background-color: yellowgreen;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #ff4500;
+    background-color: rgb(169, 252, 4);
 }

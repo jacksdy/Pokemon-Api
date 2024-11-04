@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    color: #a1c712;
+    color: #ff6347;
     font-size: 4em;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -31,7 +31,7 @@ button#toggle-theme {
 }
 
 button#toggle-theme:hover {
-    background-color: #ff4500;
+    background-color: yellowgreen;
 }
 
 .container {

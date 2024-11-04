@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeAPI</title>
+    <link id="theme-stylesheet" rel="stylesheet" href="/css/light-theme.css">
+    <link rel="icon" href="images/jackweb.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Lista de Pokémon</h1>
+    <button id="toggle-theme">Cambiar tema</button>
+    <div class="container">
+
+        <div id="pokemon-list" class="list"></div>
+        <div id="pokemon-img-container" class="image">
+            <img id="pokemon-img" src="images/jackwebLogo.png" alt="Imagen del Pokémon">
+        </div>
+        <div id="pokemon-detail" class="detail">
+            <h2>Detalles del Pokémon</h2>
+            <div id="detail-content"></div>
+            <div class="pagination-info">
+                Página <span id="current-page">1</span> de <span id="total-pages">1</span>
+            </div>
+        </div>
+    </div>
+    <div class="pagination-info">
+        Página <span id="current-page">1</span> de <span id="total-pages">1</span>
+    </div>
+    <div class="buttons">
+        <button id="first">Primero</button>
+        <button id="prev">Anterior</button>
+        <button id="next">Siguiente</button>
+        <button id="last">Último</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

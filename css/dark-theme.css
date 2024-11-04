@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    color: #a1c712;
+    font-size: 4em;
+    margin-top: 20px;
+}
+
+button#toggle-theme {
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6347;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#toggle-theme:hover {
+    background-color: #ff4500;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    margin: 20px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.list {
+    flex: 1;
+    max-height: calc(100vh - 200px); 
+    overflow-y: auto;
+    border-right: 1px solid #555;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #555;
+    padding: 10px;
+}
+
+.detail {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pokemon-img {
+    width: 300px; /* Aumenta el tamaño de la imagen en un 30% */
+    height: auto;
+    margin: 0 auto;
+}
+
+#detail-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pokemon-list {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pokemon-list div {
+    background-color: #444;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 5px;
+    padding: 5px; /* Reducido para más elementos */
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: calc(25% - 10px); /* Hacer más pequeños para más columnas */
+}
+
+#pokemon-list div:hover {
+    transform: scale(1.05);
+}
+
+.pagination-info {
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6347;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff4500;
+}

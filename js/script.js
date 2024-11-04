@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             nextUrl = data.next;
             prevUrl = data.previous;
-
+            //Se agrega el número de la página actual 
             document.getElementById("current-page").textContent = currentPage;
 
             displayPokemon(data.results);

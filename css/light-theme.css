@@ -14,7 +14,8 @@ body {
 h1 {
     color: #a1c712;
     font-size: 4em;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 button#toggle-theme {
@@ -89,7 +90,8 @@ button#toggle-theme:hover {
 }
 
 #pokemon-list div {
-    background-color: #fff;
+    background-color: #ff6347;
+    color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
